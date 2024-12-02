@@ -9,7 +9,7 @@ from langchain_community.chat_models import ChatOllama
 from langchain_core.runnables import RunnablePassthrough
 from langchain.retrievers.multi_query import MultiQueryRetriever
 def db():
-    local_path = "output.txt"
+    local_path = "GoFrServer/output.txt"
 
     # Local PDF file uploads
     if local_path:
